@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css?family=Sofia&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-color:#bbbbcecc;
+}
+h1,nav{
+	font-family: 'Sofia', cursive;
+}
+p{
+	font-family: 'Roboto', sans-serif;
+}
+#div1{
+background-color: #f5bbd4b3;
+margin: 3%;
+padding: 2%;
+}
+#div1 h1{
+	margin: 1%;
+}
+#div1 img{
+	border-radius: 15%;
+	box-shadow: 5px 10px 10px 5px rgb(0,1,1,0.7);
+	display: flex;
+	margin: 0 auto;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	width: 84%;
+}
+#div1 p#paragraph{
+	background-color: #b56da3cc;
+	margin: 2%;
+    padding: 2%;
+    color: white;
+}
+#div2{
+	background-color: #f5bbd4b3;
+	margin: 4%;
+	padding: 2%;
+}
+#div2 img{
+	width: 370px;
+    display: flex;
+    margin: auto;
+}
+.hidden{
+background-color: #b56da3cc;
+color:#fff;
+margin: 2%;
+}
+p.paragraph2{
+	padding: 1%;
+}
+footer{
+clear: both;
+text-align: center;
+background-color: #330026;
+color: #fff;
+}
+.fa {
+  padding: 10px;
+  font-size: 20px;
+  width: 35px;
+  text-align: center;
+  text-decoration: none;
+  margin: 15px 10px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
